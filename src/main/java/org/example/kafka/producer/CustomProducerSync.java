@@ -7,6 +7,9 @@ import org.apache.kafka.clients.producer.ProducerRecord;
 import java.util.Properties;
 import java.util.concurrent.ExecutionException;
 
+/**
+ * 同步发送
+ */
 public class CustomProducerSync {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         Properties properties = new Properties();
@@ -18,7 +21,7 @@ public class CustomProducerSync {
         KafkaProducer<String, String> kafkaProducer = new KafkaProducer<>(properties);
 
         for (int i = 0; i < 5; i++) {
-            // 同步发送
+            // 同步发送（服务端响应后才能往下走）
             kafkaProducer.send(new ProducerRecord<>("first","kafkaProducer " + i)).get();
         }
 

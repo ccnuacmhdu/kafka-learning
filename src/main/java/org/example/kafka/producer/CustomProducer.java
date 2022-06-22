@@ -6,6 +6,9 @@ import org.apache.kafka.clients.producer.ProducerRecord;
 
 import java.util.Properties;
 
+/**
+ * 异步发送（不必等到服务端响应，发送到缓冲区后立即返回）
+ */
 public class CustomProducer {
     public static void main(String[] args) {
         Properties properties = new Properties();
