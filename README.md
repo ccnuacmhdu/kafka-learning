@@ -15,3 +15,5 @@ org.example.kafka.producer.MyPartitioner
 org.example.kafka.producer.CustomProducerCallbackPartition
 #### 提高生产者的吞吐量
 org.example.kafka.producer.CustomProducerConfiguration
+#### 生产者事务
+org.example.kafka.producer.CustomProducerTransaction
