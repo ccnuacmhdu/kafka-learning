@@ -11,6 +11,7 @@ org.example.kafka.producer.CustomProducerCallback
 #### 同步发送
 org.example.kafka.producer.CustomProducerSync
 #### 自定义分区器
+org.example.kafka.producer.MyPartitioner
 org.example.kafka.producer.CustomProducerCallbackPartition
 #### 提高生产者的吞吐量
 org.example.kafka.producer.CustomProducerConfiguration
