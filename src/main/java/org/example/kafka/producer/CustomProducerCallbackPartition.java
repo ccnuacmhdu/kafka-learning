@@ -21,7 +21,7 @@ public class CustomProducerCallbackPartition {
         KafkaProducer<String, String> kafkaProducer = new KafkaProducer<>(properties);
 
         for (int i = 0; i < 5; i++) {
-            // 异步发送，带回调函数
+            // 异步发送，带回调函数，使用自定义分区器
             final int finalI = i;
             kafkaProducer.send(new ProducerRecord<>("first", "kafkaProducer " + i), (recordMetadata, e) -> {
                 if (e == null) {
