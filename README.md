@@ -25,3 +25,5 @@ org.example.kafka.consumer.CustomConsumer
 org.example.kafka.consumer.CustomConsumerPartition
 #### 消费者组
 org.example.kafka.consumer.CustomConsumer2
+#### 指定offset消费
+org.example.kafka.consumer.CustomConsumerSeek
