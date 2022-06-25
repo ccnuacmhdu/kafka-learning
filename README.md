@@ -22,3 +22,4 @@ org.example.kafka.producer.CustomProducerTransaction
 #### 独立消费者订阅主题
 org.example.kafka.consumer.CustomConsumer
 #### 独立消费者订阅分区
+org.example.kafka.consumer.CustomConsumerPartition
