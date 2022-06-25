@@ -17,3 +17,7 @@ org.example.kafka.producer.CustomProducerCallbackPartition
 org.example.kafka.producer.CustomProducerConfiguration
 #### 生产者事务
 org.example.kafka.producer.CustomProducerTransaction
+
+## Chapter3 kafka消费者
+#### 独立消费者订阅主题
+org.example.kafka.consumer.CustomConsumer
