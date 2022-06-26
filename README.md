@@ -29,3 +29,8 @@ org.example.kafka.consumer.CustomConsumer2
 org.example.kafka.consumer.CustomConsumerSeek
 #### 指定时间消费
 org.example.kafka.consumer.CustomConsumerForTime
+
+## Chapter4 对接外部系统
+#### 对接flink
+org.example.kafka.flink.FlinkKafkaProducerDemo
+org.example.kafka.flink.FlinkKafkaConsumerDemo

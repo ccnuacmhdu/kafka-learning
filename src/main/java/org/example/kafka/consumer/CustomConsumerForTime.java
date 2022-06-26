@@ -7,6 +7,9 @@ import org.apache.kafka.common.serialization.StringDeserializer;
 import java.time.Duration;
 import java.util.*;
 
+/**
+ * 指定时间消费
+ */
 public class CustomConsumerForTime {
     public static void main(String[] args) {
         Properties properties = new Properties();
